@@ -176,7 +176,7 @@ header p{
     color: white;
     font-weight: bold;
   
-}
+} 
 
 .main02 .head3{
     color: white;
@@ -231,22 +231,23 @@ header p{
    
    
     
-  height: 485px;
-    min-width: 330px;
-    max-width: 330px;
+  height: 475px;
+    min-width: 310px;
+    max-width: 310px;
     max-height: 485px;
     justify-content: center;
     align-items: center;
     display: flex;
     border-radius: 10px;
-    margin-left: 27px;
+    margin-left: 7px;
    
 }
 
 .main02 div .thumbnail-1 .thumbnail-1-img-div{
-  width: 314px;
-  height: 470px;
+  width: 290px;
+  height: 455px;
   position: relative;
+
 }
 
 /* .main02 div .thumbnail-2{
