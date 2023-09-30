@@ -11,7 +11,7 @@ header {
 }
 
 header h3{
-    font-size: 22px;
+    font-size: 19px;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -134,6 +134,11 @@ header p{
     font-size: 18px;
     margin-top: 100px;
 
+}
+
+.main1-sub a:hover, .main2-sub a:hover{
+  background-color: #53ffa9;
+  transition: 0.2s;
 }
 
 .image2{
@@ -570,6 +575,7 @@ header p{
     font-size: 13px;
     font-weight: bold;
     margin-bottom: 0px;
+    margin-left: 10px;
   }
 
   .main04-sub-div-2{
@@ -1182,22 +1188,157 @@ main03 */
 }
 
 
+
+
+/* Main04 */
+
+
+
+.main04{
+  overflow-x: hidden;
+}
+
 .main04-sub-div{
-  margin-left: 200px;
-  margin-right: 220px;
-  border-top: 1px solid gray;
-  background-color: black;
-  
-  /* padding-top: 80px; */
-  padding-top: 50px;
-  padding-bottom: 40px;
-  display: flex;
-  align-items: center;
-  position: sticky;
-  top: 0;
+
+
+ display: flex;
+ flex-direction: column;
+ border-top: 1px solid gray;
+ margin-left: 0px;
+ margin-right: 0px;
+ padding-top: 10px;
+padding-bottom: 10px;
 
 }
 
+.main04-sub-div .sub-1{
+  margin-left: 0px;
+  /* border: 1px solid gray; */
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.base-plans-1{
+  margin-left: 2px;
+}
+
+
+.main05{
+  overflow-x: hidden;
+}
+
+/* .main222{
+  padding: 0px;
+  margin: 0px;
+} */
+
+.main04-sub-div-2{
+  flex-direction: column;
+  margin-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid gray;
+  border: 1px solid gray;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-left: none;
+}
+
+.main04-sub-div-22{
+  flex-direction: column;
+  margin-left: 0px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-top: 1px solid gray;
+  border: 1px solid gray;
+  border-left: none;
+  border-right: none;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.main04-sub-div-2 .head1, .main04-sub-div-22 .head1{
+  color: black;
+  background-color: #1BDA7C;
+  width: 100px;
+  margin-top: 5px;
+  padding-top: 8px ;
+  padding-bottom:  8px;
+  align-items: center;
+  padding-left: 9px;
+  font-size: 10px;
+  border-radius: 20px;
+}
+
+.main222{
+  padding: 0px;
+  margin: 0px;
+  position: sticky;
+  top: 0;
+  
+}
+
+
+.main04-sub-div-2 .head2, .main04-sub-div-22 .head2{
+      font-size: 11px;
+      color: rgb(149, 149, 149);
+      font-weight: bold;
+      margin-bottom: 0px;
+
+}
+
+.main04-sub-div-2 .head3, .main04-sub-div-22 .head3{
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-top: 5px;
+  
+}
+
+.main04-sub-div-2 .head4, .main04-sub-div-22 .head4{
+ text-decoration: none;
+ color: black;
+ background-color: white;
+ padding: 10px 40px;
+ border-radius: 5px;
+ font-size: 14px;
+ font-weight: bold;
+ margin-bottom: 30px;
+  
+}
+
+.list-div{
+  flex-direction: column;
+  margin-left: 0px;
+  margin-right: 0px;
+  align-items: center;
+
+}
+
+.aa{
+  margin-left: 0px;
+ 
+}
+
+.bbcc{
+  display: flex;
+  border: 1px solid red;
+  margin-left: 0px;
+}
+
+.bb{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.cc-1{
+  margin-right: 400px;
+  padding-left: 0px;
+}
 
 }
 
