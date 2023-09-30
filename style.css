@@ -228,9 +228,6 @@ header p{
 }
 
 .main02 div .thumbnail-1{
-   
-   
-    
   height: 475px;
     min-width: 310px;
     max-width: 310px;
@@ -240,7 +237,6 @@ header p{
     display: flex;
     border-radius: 10px;
     margin-left: 7px;
-   
 }
 
 .main02 div .thumbnail-1 .thumbnail-1-img-div{
@@ -862,10 +858,10 @@ padding-bottom: 0px;
 
 .main1-sub .main1-sub-detail{
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 60px;
   margin-right: 5px;
-  max-width: 98%;
+ 
   line-height: 1.4;
   /* border: 1px solid yellow; */
   font-weight: bolder;
@@ -876,12 +872,12 @@ padding-bottom: 0px;
 
 .main2-sub .main1-sub-detail{
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 50px;
   margin-top: 0px;
   margin-right: 5px;
  line-height: 1.4;
-  max-width: 98%;
+ 
   /* border: 1px solid yellow; */
   font-weight: bolder;
   margin-top: 18px;
@@ -907,9 +903,9 @@ padding-bottom: 0px;
 .main1-sub a{
   color: #0B4328;
   background-color: #1CE783;
-  padding: 13px 8px;
+  padding: 13px 5px;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 12px;
  font-weight: bold;
   margin-top: 33px;
  
@@ -919,9 +915,9 @@ padding-bottom: 0px;
 .main2-sub a{
   color: #0B4328;
   background-color: #1CE783;
-  padding: 13px 18px;
+  padding: 13px 15px;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 12px;
   margin-top: 31px;
   font-weight: bold;
   
