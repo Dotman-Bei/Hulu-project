@@ -25,7 +25,7 @@ header p{
 
 
 .main1 {
-    background-image: url(/Images/hulu_background.jpg);
+    background-image: url(Images/hulu_background.jpg);
     height: 800px;
     background-size: auto 100%;
     /* background-size: 127% 100%; */
@@ -251,7 +251,7 @@ header p{
 
 /* .main02 div .thumbnail-2{
    
-    background-image: url(/images/thumbnail-2.jpg);
+    background-image: url(Images/thumbnail-2.jpg);
     height: 425px;
     min-width: 290px;
     background-position: center;
@@ -262,7 +262,7 @@ header p{
 }
 
 .main02 div .thumbnail-3{
-   background-image: url(/Images/thumnail-3.png);
+   background-image: url(Images/thumnail-3.png);
    opacity: 70%;
    
     height: 425px;
@@ -277,7 +277,7 @@ header p{
 
 .main02 div .thumbnail-4{
    opacity: 70%;
-    background-image: url(/images/thumbnail-4.png);
+    background-image: url(Images/thumbnail-4.png);
     height: 425px;
     max-width: 290px;
     min-width: 290px;
@@ -385,7 +385,7 @@ header p{
 
 
   .main03{
-    background-image: url(/Images/main-3-image.jpg);
+    background-image: url(Images/main-3-image.jpg);
     
     height: 800px;
     background-position: center top;
@@ -1110,7 +1110,7 @@ main03 */
 
 
 .main03{
-  background-image: url(/Images/hulu_background.jpg);
+  background-image: url(Images/hulu_background.jpg);
   height: 700px;
   background-position: center top;
   background-size: 100% 103%;
