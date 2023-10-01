@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     
+    
 }
 
 header {
@@ -133,6 +134,21 @@ header p{
     border-radius: 5px;
     font-size: 18px;
     margin-top: 100px;
+
+}
+
+.main1-sub a:hover{
+  
+  background-color: #55e79e;
+  transition: 0.2s;
+ 
+
+}
+
+.main2-sub a:hover{
+  transition: 0.2s;
+  background-color: #55e79e;
+
 
 }
 
@@ -366,6 +382,12 @@ header p{
   font-size: 14px;
 }
 
+.main02-bottom-details .head-5:hover{
+ 
+ background-color: #47e998;
+
+}
+
 .main02-bottom-details .head-6{
    font-size: 10px;
    color: rgb(161, 161, 161);
@@ -593,7 +615,7 @@ header p{
     justify-content: end;
     align-items: center;
   }
-  .main04-sub-div-2 .head1, .main04-sub-div-22 .head1{
+  .main04-sub-div-2 .head1{
     color: black;
     background-color: #1BDA7C;
     width: 120px;
@@ -603,6 +625,10 @@ header p{
     padding-left: 19px;
     font-size: 11px;
     border-radius: 20px;
+  }
+
+  .main04-sub-div-22 .head1{
+   display: none;
   }
 
 
@@ -615,7 +641,7 @@ header p{
   }
 
   .main04-sub-div-2 .head3, .main04-sub-div-22 .head3{
-    font-size: 15px;
+    font-size: 15px;  
     color: white;
     font-weight: bold;
     margin-top: 0px;
@@ -667,6 +693,11 @@ header p{
 }
 
 .main04 .list-div .bb{
+  margin-right: 200px;
+  font-size: 14px;
+}
+
+.main04 .list-div .bb-1{
   margin-right: 200px;
   font-size: 14px;
 }
@@ -794,7 +825,7 @@ header h3{
   margin-top: 0px;
   padding-right: 16px;
   padding-bottom: 2px;
-  padding-left: 12px;
+  padding-left: 6px;
   margin-right: 0px;
   max-width: 90%;
   text-align: center;
@@ -805,7 +836,7 @@ header h3{
 header p{
   font-size: 10px;
   padding-left: 0px;
-  padding-right: 20px;
+  padding-right: 10px;
   
   padding-bottom: 7px;
  
@@ -814,6 +845,11 @@ header p{
 .main1{
   overflow-x: hidden;
   height: 650px;
+}
+
+.main1 a{
+  margin-right: 10px;
+  text-align: center;
 }
 
 */
@@ -831,9 +867,9 @@ header p{
 
 .main1-sub{
     margin-top: 95px;
-    margin-left: 6px;
-    margin-right: 20px;
-    margin-left: -25px;
+    
+    margin-right: 60px;
+    margin-left: -5px;
     width: 140px; 
     min-width: 140px;
   
@@ -920,6 +956,7 @@ padding-bottom: 0px;
   font-size: 12px;
  font-weight: bold;
   margin-top: 33px;
+  
  
 
 }
@@ -932,6 +969,7 @@ padding-bottom: 0px;
   font-size: 12px;
   margin-top: 31px;
   font-weight: bold;
+  margin-left: 10px;
   
 }
 
@@ -1206,7 +1244,7 @@ main03 */
 
 .main04-sub-div{
 
-
+position: relative;
  display: flex;
  flex-direction: column;
  border-top: 1px solid gray;
@@ -1282,7 +1320,7 @@ padding-bottom: 10px;
   padding: 0px;
   margin: 0px;
   position: sticky;
-  top: 0;
+  top: -7px;
   
 }
 
@@ -1359,11 +1397,22 @@ padding-bottom: 10px;
   border-bottom: 1px solid gray;
   margin-top: 20px;
   margin-bottom: 7px;
+  width: 490px;
+  padding-bottom: 7px;
   
  
 }
 
 .bb{
+  max-width: 50px;
+ 
+  
+  /* margin-left: 70px; */
+  margin-left: -60px;
+  padding-left: 200px;
+}
+
+.bb-1{
   max-width: 50px;
   margin-right: -200px;
   padding-right: -200px;
@@ -1386,6 +1435,51 @@ padding-bottom: 10px;
   margin-left: 0px;
   
 }
+
+.main04 .list-p{
+  margin-left: 0px;
+  padding-left: 0px;
+  border-top: none;
+  border-bottom: none;
+  margin-right: 0px;
+  text-align: center;
+  font-size: 10px;
+  padding-bottom: 50px;
+ 
+  
+}
+
+.main04 .footer{
+  border-top: 1px solid gray;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* .main04 .footer p{
+ 
+} */
+
+.main05 .head{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-top: 60px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  
+  
+}
+
+.main05 .head .aa{
+ padding-top: 30px;
+  
+  
+}
+
+
 
 }
 
