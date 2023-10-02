@@ -1,0 +1,104 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  
+    height: 60px;
+    width: 100%;
+
+}
+
+header p{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header a{
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.main1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F7F9;
+}
+
+.main1 h1{
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+}
+
+.main1 .switch{
+    font-size: 16px;
+    margin-top: 20px;
+    color: #636E85;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.baseplan-div{
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.baseplan-div .pa{
+    font-size: 14px;
+    color: #272C35;
+    font-weight: bold;
+    border-bottom: 4px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.baseplan-div .pb{
+    font-size: 14px;
+    color:rgb(180, 180, 180)    ;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
