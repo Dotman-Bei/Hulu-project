@@ -68,6 +68,59 @@ button{
     border: none;
 }
 
+@media (max-width: 475px) {
+
+    .signin{
+        width: 300px;
+        
+        align-items: center;
+       
+        padding-left: 100px;
+        padding-top: 10px;
+    }
+
+    .head-story{
+        color: #93959A;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 14px;
+         max-width: 270px;
+         line-height: 1.5;
+     }
+
+     .bottom-story{
+        color: #93959A;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 14px;
+         max-width: 270px;
+         line-height: 1.5;
+         text-align: center;
+         margin-bottom: 20px;
+     }
+
+     .forrm  input{
+        height: 50px;
+        width: 250px;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin-bottom: 20px;
+     
+     }
+
+     button{
+        width: 250px;
+        height: 50px;
+        text-align: center;
+        margin-bottom: 70px;
+        color: white;
+        background-color: #93959A;
+        border: none;
+    }
+
+    .modal-content{
+        width: 310px;
+    }
+}
+
 
 
 
