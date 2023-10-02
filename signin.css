@@ -1,0 +1,77 @@
+.signin{
+    width: 600px;
+    
+    align-items: center;
+   
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.signin h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.head-story{
+   color: #93959A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    max-width: 520px;
+    line-height: 1.5;
+}
+
+.bottom-story{
+   color: #93959A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    max-width: 520px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.head-story span a, .bottom-story span a{
+    color: #3C88EB;
+    text-decoration: none;
+}
+
+.forrm  p{
+    color: #93959A;
+    font-size: 18px;
+    margin-bottom: 5px;
+
+}
+
+.forrm  input{
+   height: 50px;
+   width: 550px;
+   border-radius: 5px;
+   border: 1px solid black;
+   margin-bottom: 20px;
+
+}
+
+.forget{
+    color: #3C88EB;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+button{
+    width: 550px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+    color: white;
+    background-color: #93959A;
+    border: none;
+}
+
+
+
+
+
+
+
+
